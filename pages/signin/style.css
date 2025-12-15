@@ -1,0 +1,167 @@
+@import url(../../../src/assets/css/reset.css);
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 80px;
+}
+
+.title-wrapper{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.left > a{
+    align-self: flex-start;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+  width: 24px;
+  height: 24px;
+}
+
+.links{
+    font-size: 26px;
+    text-decoration: none;
+    color: #000;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.right h2 {
+  font-size: 30px;
+}
+
+.right p {
+    margin: 0px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #FF0000;
+  border: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+
+input::placeholder {
+  color: #000;
+  font-size: 14px;
+}
+
+.email, .password, .confirm {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 10px;
+}
+
+input[type="email"], input[type="password"], input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+
+.email > img{
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+
+.password > img{
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.confirm > img{
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+label{
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+input[type="number"]{
+    border: 1px solid #b5b5b5;
+    border-radius: 25px;
+    height: 40px;
+    width: 148px;
+}
+
+.metabolism{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.right a{
+    text-decoration: underline;
+    color: blue;
+}
+body {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
