@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="./pages/signin/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<script src="./pages/signin/cadastro.js" defer></script>
+  </head>
+  <body>
+    <div class="left">
+      <div class="title-wrapper">
+        <h1 class="logo">LIFEBLOOM</h1>
+        <div class="links">
+        </div>
+      </div>
+        <a href="#"> <img src="../../assets/icons/seta.svg" alt="seta para voltar"> voltar</a>
+    </div>
+    <section class="right">
+      <h2>SEJA BEM-VINDO!</h2>
+      <p>Por favor, insira as informações:</p>
+      <form id="form-cadastro">
+
+          <div class="email">
+            <img src="../../assets/icons/email.svg" alt="icone de email">
+            <input type="email" id="input-email" placeholder=" E-mail:" />
+        </div>
+
+        <div class="password">
+            <img src="../../assets/icons/password.svg" alt="icone de senha">
+            <input type="password" name="senha" placeholder=" Senha:" />
+        </div>
+
+        <label for="terms">
+        <input type="checkbox" name="terms" id="terms" />
+            Concordo com os <a href="#">termos e políticas</a>
+        </label>
+
+        <button type="submit">Cadastre-se</button>
+      </form>
+    </section>
+  </body>
+</html>
